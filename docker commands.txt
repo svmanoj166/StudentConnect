@@ -1,0 +1,24 @@
+docker run -d --name mysql-db -e MYSQL_ROOT_PASSWORD=my-secret-pw -v mysql_data:/var/lib/mysql mysql:5.7
+
+apk add curl
+
+
+docker exec -it msmarteduc sh
+apk add --no-cache sqlite
+sqlite3 SmartEduDB.db
+
+select * from users;
+ insert into users values('manoj','manoj sakala','sachin','admin');
+.exit
+python /home/app/app.py
+
+
+docker run -it --name msmarteduc -v mysql_data:/data msmartedu
+
+docker commit msmarteduc
+retstart containter
+docker restart msmarteduc
+
+
+docker pull svmanoj166/msmartedu
+CREATE TABLE IF NOT EXISTS users ( id VARCHAR(50) PRIMARY KEY, name VARCHAR(100) NOT NULL,password VARCHAR(100) NOT NULL,role VARCHAR(20) DEFAULT 'student')

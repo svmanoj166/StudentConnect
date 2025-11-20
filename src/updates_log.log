@@ -1,0 +1,14 @@
+2025-09-06 15:37:11.842283: Called updates_decorator with args: (<function student.add_stud at 0x000001FAF5F944A0>,), kwargs: {}
+2025-09-06 15:37:11.843714: Called updates_decorator with args: (<function student.update_stud at 0x000001FAF5F945E0>,), kwargs: {}
+2025-09-06 15:37:11.844457: Called updates_decorator with args: (<function student.delete_stud at 0x000001FAF5F94720>,), kwargs: {}
+2025-09-06 15:37:17.281492: Called updates_decorator with args: (<function student.add_stud at 0x000001D29FE6C5E0>,), kwargs: {}
+2025-09-06 15:37:17.282811: Called updates_decorator with args: (<function student.update_stud at 0x000001D29FE6C720>,), kwargs: {}
+2025-09-06 15:37:17.285296: Called updates_decorator with args: (<function student.delete_stud at 0x000001D29FE6C860>,), kwargs: {}
+2025-09-06 15:42:40.376785: Called updates_decorator with args: (<function student.add_stud at 0x000001C4B9AA4680>,), kwargs: {}
+2025-09-06 15:42:40.378615: Called updates_decorator with args: (<function student.update_stud at 0x000001C4B9AA47C0>,), kwargs: {}
+2025-09-06 15:42:40.380123: Called updates_decorator with args: (<function student.delete_stud at 0x000001C4B9AA4900>,), kwargs: {}
+2025-09-06 15:46:34.019013: Called wrapper with args: (<StudProc.student object at 0x00000222388057F0>, 'ss', 'ss'), kwargs: {}
+2025-09-06 15:50:39.235761: Called wrapper with args: (<StudProc.student object at 0x000002DD93B45940>,), kwargs: {}
+2025-09-06 15:52:52.907380: Called add_stud with args: (<StudProc.student object at 0x0000011E2FFE57F0>, 'sdds', 'sd'), kwargs: {}
+2025-09-06 16:13:17.297366: Delete a student  with parameters (<StudProc.student object at 0x000001A7755357F0>,)
+2025-09-06 16:25:56.922725: Add a new student  with id 101

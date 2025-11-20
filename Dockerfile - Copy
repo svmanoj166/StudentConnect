@@ -1,0 +1,4 @@
+# Use an official web server 
+FROM nginx:latest 
+# Copy HTML into container 
+COPY index.html /usr/share/nginx/html/index.html
